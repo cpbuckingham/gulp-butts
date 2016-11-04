@@ -4,8 +4,8 @@ var connect = require('gulp-connect')
 
 gulp.task('connect', function () {
   connect.server({
-    root: 'public',
-    port: 8080
+    root: 'localhost',
+    port: 9999
   })
 })
 
